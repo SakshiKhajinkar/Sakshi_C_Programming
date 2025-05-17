@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter 2 numbers:");
+    scanf("%d%d",&a,&b);
+    (a<b)?printf("Min is %d",a) :printf("Min is %d",b);
+
+}
